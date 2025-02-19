@@ -1,6 +1,6 @@
 import { View, StyleSheet } from "react-native";
 
-export function Content ({ children }) {
+export default function Content({ children }) {
   return (
     <View style={styles.container}>
       {children}
